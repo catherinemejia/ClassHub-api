@@ -1,0 +1,28 @@
+{
+  "dependencies": {
+    "cors": "^2.8.5",
+    "esm": "^3.2.25",
+    "express": "^4.18.1",
+    "nodemon": "^2.0.20"
+  },
+  "name": "classhub-api",
+  "description": "",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node -r esm src/index.js",
+    "dev": "nodemon -r esm src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/catherinemejia/ClassHub-api.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/catherinemejia/ClassHub-api/issues"
+  },
+  "homepage": "https://github.com/catherinemejia/ClassHub-api#readme"
+}

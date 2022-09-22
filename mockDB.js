@@ -1,0 +1,63 @@
+module.exports = {
+    users: [
+        { 'id': '1', 'userName': 'gambore', 'password': 'password123', 'fullName': 'Rey Gamboa', 'contactNumber': '09173057623', 'emailAddress': 'rey@school.edu', 'role': 'Teacher' },
+        { 'id': '2', 'userName': 'terrence', 'password': 'password123', 'fullName': 'Thoughtful Terrence', 'contactNumber': '09173057623', 'emailAddress': 'terrence@school.edu', 'role': 'Parent' },
+        { 'id': '3', 'userName': 'roger', 'password': 'password123', 'fullName': 'Raging Roger', 'contactNumber': '09173057623', 'emailAddress': 'roger@school.edu', 'role': 'Parent' },
+        { 'id': '4', 'userName': 'tigreal', 'password': 'password123', 'fullName': 'Thinking Tigreal', 'contactNumber': '09173057623', 'emailAddress': 'tigreal@school.edu', 'role': 'Parent' },
+        { 'id': '5', 'userName': 'irene', 'password': 'password123', 'fullName': 'Independent Irene', 'contactNumber': '09173057623', 'emailAddress': 'irene@school.edu', 'role': 'Parent' },
+        { 'id': '6', 'userName': 'anna', 'password': 'password123', 'fullName': 'Single Mama Anna', 'contactNumber': '09173057623', 'emailAddress': 'anna@school.edu', 'role': 'Teacher' },
+        { 'id': '7', 'userName': 'vince', 'password': 'password123', 'fullName': 'Competitive Vince', 'contactNumber': '09173057623', 'emailAddress': 'vince@school.edu', 'role': 'Parent' },
+    ],
+    students: [
+        { 'id': '1', 'name': 'Vexana', 'parentId': '4', 'sectionId': '3' },
+        { 'id': '2', 'name': 'Eudora', 'parentId': '7', 'sectionId': '1'  },
+        { 'id': '3', 'name': 'Irithel', 'parentId': '5', 'sectionId': '3'  },
+        { 'id': '4', 'name': 'Kaye', 'parentId': '2', 'sectionId': '3'  },
+        { 'id': '5', 'name': 'Clyde', 'parentId': '3', 'sectionId': '3'  },
+        { 'id': '6', 'name': 'Clint', 'parentId': '5', 'sectionId': '1'  },
+        { 'id': '7', 'name': 'Karrie', 'parentId': '4', 'sectionId': '2'  },
+        { 'id': '8', 'name': 'Karina', 'parentId': '7', 'sectionId': '2'  },
+        { 'id': '9', 'name': 'Alucard', 'parentId': '2', 'sectionId': '1'  },
+        { 'id': '10', 'name': 'Gondar', 'parentId': '2', 'sectionId': '2'  },
+    ],
+    subjects: [
+        { 'id': '1', 'name': 'Math', 'userId': '1' },
+        { 'id': '2', 'name': 'English', 'userId': '6' },
+        { 'id': '3', 'name': 'Science', 'userId': '1' },
+    ],
+    sections: [
+        { 'id': '1', 'name': 'Targaryen' },
+        { 'id': '2', 'name': 'Lannister' },
+        { 'id': '3', 'name': 'Stark' },
+    ],
+    attendances: [
+        { 'id': '1', 'isPresent': false, 'date': '2022-01-01', 'studentId': '1' },
+        { 'id': '2', 'isPresent': false, 'date': '2022-01-01', 'studentId': '4' },
+        { 'id': '3', 'isPresent': false, 'date': '2022-02-01', 'studentId': '1' },
+        { 'id': '4', 'isPresent': false, 'date': '2022-03-01', 'studentId': '5' },
+        { 'id': '5', 'isPresent': false, 'date': '2022-03-01', 'studentId': '6' },
+    ],
+    exams: [
+        { 'id': '1', 'topic': 'Algebra', 'isPass': false, 'date': '2022-01-01', 'studentId': '5' },
+        { 'id': '2', 'topic': 'Biology', 'isPass': false, 'date': '2022-01-02', 'studentId': '2' },
+        { 'id': '3', 'topic': 'Algebra', 'isPass': false, 'date': '2022-03-01', 'studentId': '1' },
+        { 'id': '4', 'topic': 'History', 'isPass': false, 'date': '2022-03-01', 'studentId': '4' },
+    ],
+    remarks: [
+        { 'id': '1', 'description': 'Makuliiiit', 'isMerit': false, 'date': '2022-01-02', 'studentId': '1' },
+        { 'id': '2', 'description': 'Makuliiiit', 'isMerit': false, 'date': '2022-01-10', 'studentId': '2' },
+        { 'id': '3', 'description': 'Makuliiiit', 'isMerit': false, 'date': '2022-02-01', 'studentId': '5' },
+        { 'id': '4', 'description': 'Makuliiiit', 'isMerit': false, 'date': '2022-02-05', 'studentId': '7' },
+        { 'id': '5', 'description': 'Makuliiiit', 'isMerit': false, 'date': '2022-03-01', 'studentId': '1' },
+        { 'id': '6', 'description': 'Makuliiiit', 'isMerit': false, 'date': '2022-03-07', 'studentId': '1' },
+    ],
+    classes: [
+        {'id': '1', 'sectionId': '1', 'subjectId': '1'},
+        {'id': '2', 'sectionId': '1', 'subjectId': '2'},
+        {'id': '3', 'sectionId': '1', 'subjectId': '3'},
+        {'id': '4', 'sectionId': '2', 'subjectId': '1'},
+        {'id': '5', 'sectionId': '2', 'subjectId': '3'},
+        {'id': '6', 'sectionId': '3', 'subjectId': '1'},
+        {'id': '7', 'sectionId': '3', 'subjectId': '2'},
+    ]
+};
