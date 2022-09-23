@@ -2,8 +2,10 @@ const remarksController = (remarks) => {
 
     const post = (req, res) => {
         const remark = req.body;
-        remark.id = (remark.length + 1).toString();
-        remarks.push(remark);
+        for(x = 0; x < remarks.length; x++) {
+            remark[x].id = (remarks.length + 1).toString();
+            remarks.push(remark[x]);
+        }       
         return res.status(201).json(remark);
     }
 
