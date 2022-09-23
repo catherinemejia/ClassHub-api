@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1663905809135" clover="3.2.0">
+  <project timestamp="1663905809136" name="All files">
+    <metrics statements="91" coveredstatements="81" conditionals="14" coveredconditionals="13" methods="32" coveredmethods="27" elements="137" coveredelements="121" complexity="0" loc="91" ncloc="91" packages="1" files="7" classes="7"/>
+    <file name="attendancesController.js" path="/Users/sansaro/manulife_university/class_hub/ClassHub-api/controllers/attendancesController.js">
+      <metrics statements="16" coveredstatements="14" conditionals="2" coveredconditionals="2" methods="5" coveredmethods="4"/>
+      <line num="1" count="1" type="stmt"/>
+      <line num="3" count="3" type="stmt"/>
+      <line num="4" count="1" type="stmt"/>
+      <line num="5" count="1" type="stmt"/>
+      <line num="6" count="0" type="stmt"/>
+      <line num="7" count="0" type="stmt"/>
+      <line num="9" count="1" type="stmt"/>
+      <line num="12" count="3" type="stmt"/>
+      <line num="13" count="2" type="stmt"/>
+      <line num="14" count="2" type="stmt"/>
+      <line num="15" count="2" type="cond" truecount="2" falsecount="0"/>
+      <line num="16" count="1" type="stmt"/>
+      <line num="18" count="2" type="stmt"/>
+      <line num="21" count="3" type="stmt"/>
+      <line num="23" count="3" type="stmt"/>
+      <line num="27" count="1" type="stmt"/>
+    </file>
+    <file name="examsController.js" path="/Users/sansaro/manulife_university/class_hub/ClassHub-api/controllers/examsController.js">
+      <metrics statements="16" coveredstatements="14" conditionals="2" coveredconditionals="2" methods="5" coveredmethods="4"/>
+      <line num="1" count="1" type="stmt"/>
+      <line num="3" count="3" type="stmt"/>
+      <line num="4" count="1" type="stmt"/>
+      <line num="5" count="1" type="stmt"/>
+      <line num="6" count="0" type="stmt"/>
+      <line num="7" count="0" type="stmt"/>
+      <line num="9" count="1" type="stmt"/>
+      <line num="12" count="3" type="stmt"/>
+      <line num="13" count="2" type="stmt"/>
+      <line num="14" count="2" type="stmt"/>
+      <line num="15" count="2" type="cond" truecount="2" falsecount="0"/>
+      <line num="16" count="1" type="stmt"/>
+      <line num="18" count="2" type="stmt"/>
+      <line num="21" count="3" type="stmt"/>
+      <line num="23" count="3" type="stmt"/>
+      <line num="27" count="1" type="stmt"/>
+    </file>
+    <file name="remarksController.js" path="/Users/sansaro/manulife_university/class_hub/ClassHub-api/controllers/remarksController.js">
+      <metrics statements="16" coveredstatements="11" conditionals="2" coveredconditionals="2" methods="5" coveredmethods="3"/>
+      <line num="1" count="1" type="stmt"/>
+      <line num="3" count="2" type="stmt"/>
+      <line num="4" count="0" type="stmt"/>
+      <line num="5" count="0" type="stmt"/>
+      <line num="6" count="0" type="stmt"/>
+      <line num="7" count="0" type="stmt"/>
+      <line num="9" count="0" type="stmt"/>
+      <line num="12" count="2" type="stmt"/>
+      <line num="13" count="2" type="stmt"/>
+      <line num="14" count="2" type="stmt"/>
+      <line num="15" count="2" type="cond" truecount="2" falsecount="0"/>
+      <line num="16" count="1" type="stmt"/>
+      <line num="18" count="2" type="stmt"/>
+      <line num="21" count="2" type="stmt"/>
+      <line num="23" count="2" type="stmt"/>
+      <line num="27" count="1" type="stmt"/>
+    </file>
+    <file name="sectionsController.js" path="/Users/sansaro/manulife_university/class_hub/ClassHub-api/controllers/sectionsController.js">
+      <metrics statements="10" coveredstatements="9" conditionals="2" coveredconditionals="1" methods="4" coveredmethods="3"/>
+      <line num="1" count="1" type="stmt"/>
+      <line num="3" count="2" type="stmt"/>
+      <line num="4" count="1" type="stmt"/>
+      <line num="5" count="1" type="stmt"/>
+      <line num="6" count="1" type="cond" truecount="1" falsecount="1"/>
+      <line num="7" count="0" type="stmt"/>
+      <line num="9" count="1" type="stmt"/>
+      <line num="12" count="2" type="stmt"/>
+      <line num="14" count="2" type="stmt"/>
+      <line num="18" count="1" type="stmt"/>
+    </file>
+    <file name="studentsController.js" path="/Users/sansaro/manulife_university/class_hub/ClassHub-api/controllers/studentsController.js">
+      <metrics statements="13" coveredstatements="13" conditionals="4" coveredconditionals="4" methods="5" coveredmethods="5"/>
+      <line num="1" count="1" type="stmt"/>
+      <line num="3" count="4" type="stmt"/>
+      <line num="4" count="3" type="stmt"/>
+      <line num="5" count="3" type="stmt"/>
+      <line num="6" count="3" type="stmt"/>
+      <line num="7" count="3" type="cond" truecount="2" falsecount="0"/>
+      <line num="8" count="1" type="stmt"/>
+      <line num="10" count="3" type="cond" truecount="2" falsecount="0"/>
+      <line num="11" count="1" type="stmt"/>
+      <line num="13" count="3" type="stmt"/>
+      <line num="16" count="4" type="stmt"/>
+      <line num="18" count="4" type="stmt"/>
+      <line num="22" count="1" type="stmt"/>
+    </file>
+    <file name="subjectsController.js" path="/Users/sansaro/manulife_university/class_hub/ClassHub-api/controllers/subjectsController.js">
+      <metrics statements="10" coveredstatements="10" conditionals="2" coveredconditionals="2" methods="4" coveredmethods="4"/>
+      <line num="1" count="1" type="stmt"/>
+      <line num="3" count="3" type="stmt"/>
+      <line num="4" count="2" type="stmt"/>
+      <line num="5" count="2" type="stmt"/>
+      <line num="6" count="2" type="cond" truecount="2" falsecount="0"/>
+      <line num="7" count="1" type="stmt"/>
+      <line num="9" count="2" type="stmt"/>
+      <line num="12" count="3" type="stmt"/>
+      <line num="14" count="3" type="stmt"/>
+      <line num="18" count="1" type="stmt"/>
+    </file>
+    <file name="usersController.js" path="/Users/sansaro/manulife_university/class_hub/ClassHub-api/controllers/usersController.js">
+      <metrics statements="10" coveredstatements="10" conditionals="0" coveredconditionals="0" methods="4" coveredmethods="4"/>
+      <line num="1" count="1" type="stmt"/>
+      <line num="3" count="3" type="stmt"/>
+      <line num="4" count="1" type="stmt"/>
+      <line num="5" count="1" type="stmt"/>
+      <line num="6" count="1" type="stmt"/>
+      <line num="7" count="1" type="stmt"/>
+      <line num="10" count="3" type="stmt"/>
+      <line num="12" count="3" type="stmt"/>
+      <line num="14" count="3" type="stmt"/>
+      <line num="18" count="1" type="stmt"/>
+    </file>
+  </project>
+</coverage>
