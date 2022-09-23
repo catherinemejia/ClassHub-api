@@ -2,8 +2,10 @@ const examsController = (exams) => {
 
     const post = (req, res) => {
         const exam = req.body;
-        exam.id = (exam.length + 1).toString();
-        exams.push(exam);
+        for(x = 0; x < exam.length; x++) {
+            exam[x].id = (exams.length + 1).toString();
+            exams.push(exam[x]);
+        }       
         return res.status(201).json(exam);
     }
 

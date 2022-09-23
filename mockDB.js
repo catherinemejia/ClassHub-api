@@ -26,10 +26,10 @@ module.exports = {
         { 'id': '3', 'name': 'Science', 'userId': '1' },
     ],
     sections: [
-        { 'id': '1', 'name': 'Targaryen', 'subjectID': '1'  },
-        { 'id': '2', 'name': 'Lannister', 'subjectID': '1'  },
-        { 'id': '3', 'name': 'Stark', 'subjectID': '2'  },
-        { 'id': '2', 'name': 'Lannister', 'subjectID': '3'  },
+        { 'id': '1', 'name': 'Grade 4 - Apple', 'subjectId': '1'  },
+        { 'id': '2', 'name': 'Grade 6 - Newton', 'subjectId': '1'  },
+        { 'id': '3', 'name': 'Grade 5 - Einstein', 'subjectId': '2'  },
+        { 'id': '4', 'name': 'Grade 3 - Orange', 'subjectId': '3'  },
     ],
     attendances: [
         { 'id': '1', 'isPresent': false, 'date': '2022-01-01', 'studentId': '1' },
